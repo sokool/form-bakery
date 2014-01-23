@@ -1,0 +1,34 @@
+{
+    "name": "mint-soft/form-bakery",
+    "description": "Zend Framework 2 Module that extends Doctrine module",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "doctrine",
+        "orm",
+        "module",
+        "zf2"
+    ],
+    "homepage": "",
+    "authors": [
+        {
+            "name": "Michał Sokołowski",
+            "email": "marian.sokolowski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",        
+        "doctrine/doctrine-orm-module": "*",
+        "zendframework/zend-loader": "*",
+        "zendframework/zend-view": "*",
+        "zendframework/zend-serializer": "*",
+        "zendframework/zend-code": "*",
+        "zendframework/zend-modulemanager": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PGSDoctrine\\": "src/",
+            "PGSDoctrineTest\\": "tests/"
+        }
+    }
+}
