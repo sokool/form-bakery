@@ -10,15 +10,11 @@
         "zf2"
     ],
     "homepage": "https://github.com/sokool/form-bakery",
-    "authors": [
-        {
-            "name": "Michał Sokołowski",
-            "email": "marian.sokolowski@gmail.com"
-        }
-    ],
     "require": {
         "php": ">=5.3.3",
+        "zendframework/zend-modulemanager": "2.3.*",
         "zendframework/zend-mvc" : "2.3.*",
+        "spiffy/spiffy-routes" : "dev-master",
         "zendframework/zend-cache" : "2.3.*"
     },
     "autoload": {
