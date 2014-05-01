@@ -9,26 +9,18 @@
         "module",
         "zf2"
     ],
-    "homepage": "",
-    "authors": [
-        {
-            "name": "Michał Sokołowski",
-            "email": "marian.sokolowski@gmail.com"
-        }
-    ],
+    "homepage": "https://github.com/sokool/form-bakery",
     "require": {
-        "php": ">=5.3.3",        
-        "doctrine/doctrine-orm-module": "*",
-        "zendframework/zend-loader": "*",
-        "zendframework/zend-view": "*",
-        "zendframework/zend-serializer": "*",
-        "zendframework/zend-code": "*",
-        "zendframework/zend-modulemanager": "*"
+        "php": ">=5.3.3",
+        "zendframework/zend-modulemanager": "2.3.*",
+        "zendframework/zend-mvc" : "2.3.*",
+        "spiffy/spiffy-routes" : "dev-master",
+        "zendframework/zend-cache" : "2.3.*"
     },
     "autoload": {
         "psr-0": {
-            "PGSDoctrine\\": "src/",
-            "PGSDoctrineTest\\": "tests/"
+            "MintSoftFormBakery\\": "src/",
+            "MintSoftFormBakeryTest\\": "tests/"
         }
     }
 }
