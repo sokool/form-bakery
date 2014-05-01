@@ -52,7 +52,7 @@ class FormBakery
         return $this->cacheAdapter;
     }
 
-    public function test($entity)
+    public function bake($entity)
     {
         $entityNameHash    = is_object($entity) ? get_class($entity) : $entity;
         $entityNameHash    = strtolower(str_replace('\\', '-', $entityNameHash));
