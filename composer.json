@@ -20,7 +20,7 @@
         "zendframework/zend-modulemanager": "*",
         "zendframework/zend-form": "*",
         "zendframework/zend-mvc": "*",
-        "zendframework/zend-view": "*",
+        "zendframework/zend-view": "*"
     },
     "autoload": {
         "psr-0": {
